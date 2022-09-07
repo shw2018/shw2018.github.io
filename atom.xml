@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>洪卫の博客</title>
+  <title>深度学习</title>
   
   <subtitle>洪卫の博客</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -38,9 +38,9 @@
       <category term="计算机视觉" scheme="https://sunhwee.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
     
-      <category term="计算机视觉" scheme="https://sunhwee.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-    
       <category term="深度学习" scheme="https://sunhwee.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="计算机视觉" scheme="https://sunhwee.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
   </entry>
   
@@ -66,9 +66,9 @@
       <category term="计算机视觉" scheme="https://sunhwee.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
     
-      <category term="计算机视觉" scheme="https://sunhwee.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-    
       <category term="深度学习" scheme="https://sunhwee.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="计算机视觉" scheme="https://sunhwee.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
   </entry>
   
@@ -94,11 +94,11 @@
       <category term="深度学习" scheme="https://sunhwee.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="深度学习" scheme="https://sunhwee.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
       <category term="Deep Learning" scheme="https://sunhwee.com/tags/Deep-Learning/"/>
     
       <category term="Conda" scheme="https://sunhwee.com/tags/Conda/"/>
+    
+      <category term="深度学习" scheme="https://sunhwee.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
