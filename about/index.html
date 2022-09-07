@@ -1,0 +1,1968 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+    
+
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="关于我, UESTC CV DeepLearning MachineLearning 洪卫 sunhw Hongwei 计算机视觉 深度学习">
+    <meta name="baidu-site-verification" content="fmlEuI34ir">
+    <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
+    <meta name="description" content="关于我 | 洪卫の博客">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>关于我 | 洪卫の博客</title>
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/matery.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/css/my.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/libs/highlight/styles/atom-one-dark.css"> -->
+    
+    <!-- <style type="text/css">
+        
+            code[class*="language-"],
+            pre[class*="language-"] {
+                white-space: pre !important;
+            }
+        
+    </style> -->
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+    <!-- 今日诗词 -->
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    
+    <!-- 百度统计 洪卫  shw2018 add 2019.09.13 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?28c8c0fcedebccbf1e2bfc8b43c2e7b5";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>        
+        
+    <!-- 加入百度自动推送JS代码，全站激活，洪卫  shw2018 add 2019.08.13  -->
+    
+        <script>
+            (function(){
+                var bp = document.createElement('script');
+                var curProtocol = window.location.protocol.split(':')[0];
+                if (curProtocol === 'https') {
+                    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+                }
+                else {
+                    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                }
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(bp, s);
+            })();
+        </script>
+    
+
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+    <body>
+
+        <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    <!-- 去掉 header 栏的 logo显示  洪卫 shw2018 2019.09.15-->
+                    <!-- 
+                    <img src="/favicon.jpg" class="logo-img" alt="LOGO">
+                     -->
+                    <span class="logo-span">洪卫の博客</span>
+                </a>
+            </div>
+            
+
+
+<!-- <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/List" class="waves-effect waves-light">
+            
+            <i class="fa fa-heartbeat"></i>
+            
+            <span>清单</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/galleries" class="waves-effect waves-light">
+            
+            <i class="fa fa-photo"></i>
+            
+            <span>相册</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于我</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/contact" class="waves-effect waves-light">
+            
+            <i class="fa fa-envelope"></i>
+            
+            <span>留言板</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/navi" class="waves-effect waves-light">
+            
+            <i class="fa fa-rocket"></i>
+            
+            <span>快捷导航</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+</ul> -->
+
+<!-- 支持二级菜单特性 洪卫 shw2018 modify 2019.09.17  -->
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right nav-menu">
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/" class="waves-effect waves-light">
+              
+                <i class="fa fa-home"></i>
+              
+              <span>首页</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+              <a href="/archives" class="waves-effect waves-light">
+                
+                  <i class="fa fa-archive"></i>
+                
+                <span>归档</span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+
+            <ul class="sub-nav menus_item_child ">
+              
+                <li> 
+                  <a href="/categories" >
+                    
+                      <i class="fa fa-bookmark" style="margin-top: -20px;"></i>
+                    
+                    <span>分类</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/categories/技术" >
+                    
+                      <i class="fa fa-code" style="margin-top: -20px;"></i>
+                    
+                    <span>技术</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/categories/生活" >
+                    
+                      <i class="fa fa-file-text-o" style="margin-top: -20px;"></i>
+                    
+                    <span>生活</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/categories/随想" >
+                    
+                      <i class="fa fa-commenting-o" style="margin-top: -20px;"></i>
+                    
+                    <span>随想</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/categories/资源" >
+                    
+                      <i class="fa fa-cloud-download" style="margin-top: -20px;"></i>
+                    
+                    <span>资源</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+              <a href="/List" class="waves-effect waves-light">
+                
+                  <i class="fa fa-heartbeat"></i>
+                
+                <span>清单</span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+
+            <ul class="sub-nav menus_item_child ">
+              
+                <li> 
+                  <a href="/List/music" >
+                    
+                      <i class="fa fa-music" style="margin-top: -20px;"></i>
+                    
+                    <span>音乐</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/List/movies" >
+                    
+                      <i class="fa fa-film" style="margin-top: -20px;"></i>
+                    
+                    <span>视频</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/books/" >
+                    
+                      <i class="fa fa-th-list faa-bounce" style="margin-top: -20px;"></i>
+                    
+                    <span>书单</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/movies/" >
+                    
+                      <i class="fa fa-film faa-vertical" style="margin-top: -20px;"></i>
+                    
+                    <span>电影</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/galleries" class="waves-effect waves-light">
+              
+                <i class="fa fa-photo"></i>
+              
+              <span>相册</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/about" class="waves-effect waves-light">
+              
+                <i class="fa fa-user-circle-o"></i>
+              
+              <span>关于我</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/contact" class="waves-effect waves-light">
+              
+                <i class="fa fa-envelope"></i>
+              
+              <span>留言板</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/friends" class="waves-effect waves-light">
+              
+                <i class="fa fa-address-book"></i>
+              
+              <span>友情链接</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/navi" class="waves-effect waves-light">
+              
+                <i class="fa fa-rocket"></i>
+              
+              <span>快捷导航</span>
+            </a>
+
+            
+      </li>
+    
+
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/favicon.jpg" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">洪卫の博客</div>
+        <div class="logo-desc">
+            
+            电子科技大学 | 电子与通信工程 | 计算机视觉
+            
+        </div>
+    </div>
+
+    
+
+    <!-- <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/List" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-heartbeat"></i>
+                
+                清单
+            </a>
+        </li>
+        
+        <li>
+            <a href="/galleries" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-photo"></i>
+                
+                相册
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于我
+            </a>
+        </li>
+        
+        <li>
+            <a href="/contact" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-envelope"></i>
+                
+                留言板
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        <li>
+            <a href="/navi" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-rocket"></i>
+                
+                快捷导航
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/shw2018/shw2018.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul> -->
+
+<!-- 支持二级菜单特性 洪卫 shw2018 modify 2019.09.17  -->
+<ul class="menu-list mobile-menu-list">
+    
+        <li class="m-nav-item">
+                
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-home"></i>
+                        
+                        首页
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="javascript:;">
+                            
+                            <i class="fa fa-fw fa-archive"></i>
+                            
+                            归档
+                            <span class="m-icon"><i class="fa fa-chevron-right"></i></span>
+                    </a>
+                <ul>
+                  
+                    <li> 
+                      <a href="/categories" >
+                           
+                            <i class="fa fa-bookmark" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>分类</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/categories/技术" >
+                           
+                            <i class="fa fa-code" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>技术</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/categories/生活" >
+                           
+                            <i class="fa fa-file-text-o" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>生活</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/categories/随想" >
+                           
+                            <i class="fa fa-commenting-o" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>随想</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/categories/资源" >
+                           
+                            <i class="fa fa-cloud-download" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>资源</span>
+                      </a>
+                    </li>
+                   
+                </ul>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="javascript:;">
+                            
+                            <i class="fa fa-fw fa-heartbeat"></i>
+                            
+                            清单
+                            <span class="m-icon"><i class="fa fa-chevron-right"></i></span>
+                    </a>
+                <ul>
+                  
+                    <li> 
+                      <a href="/List/music" >
+                           
+                            <i class="fa fa-music" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>音乐</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/List/movies" >
+                           
+                            <i class="fa fa-film" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>视频</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/books/" >
+                           
+                            <i class="fa fa-th-list faa-bounce" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>书单</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/movies/" >
+                           
+                            <i class="fa fa-film faa-vertical" style="left: 25px; position: absolute;"></i>
+                       
+                       <span>电影</span>
+                      </a>
+                    </li>
+                   
+                </ul>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/galleries" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-photo"></i>
+                        
+                        相册
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/about" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-user-circle-o"></i>
+                        
+                        关于我
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/contact" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-envelope"></i>
+                        
+                        留言板
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/friends" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-address-book"></i>
+                        
+                        友情链接
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/navi" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-rocket"></i>
+                        
+                        快捷导航
+                    </a>
+              
+            </li>
+        
+
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/shw2018/shw2018.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/shw2018/shw2018.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+        <style type="text/css">
+    /* don't remove. */
+    .about-cover {
+        height: 75vh;
+    }
+</style>
+
+<div class="bg-cover pd-header about-cover rainbow">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                <!-- 
+                    洪卫の博客
+                 -->
+                
+                    关于我
+                
+            </div>
+
+            <div class="description center-align">
+                
+                    <!-- 电子科技大学 | 电子与通信工程 | 计算机视觉 -->
+                    <span id="jinrishici-sentence">正在加载今日诗词...</span>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script>
+// 每天切换 banner 图.  Switch banner image every day.
+// $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+$('.bg-cover').css('background-image', 'url(/medias/banner/6.jpg)');
+</script>
+
+
+    </div>
+</div>
+
+<main class="content">
+
+    <div id="aboutme" class="container about-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="row">
+                    <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
+                        
+<div class="statis">
+    <span class="count"><a href="/" target="_blank">23</a></span>
+    <span class="name">文章</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/categories" target="_blank">15</a></span>
+    <span class="name">分类</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/tags" target="_blank">46</a></span>
+    <span class="name">标签</span>
+</div>
+
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="profile center-align">
+                            <div class="avatar">
+                                <img src="/medias/avatars/hwsun.jpg" alt="洪卫"
+                                    class="circle responsive-img avatar-img">
+                            </div>
+                            <div class="author">
+                                <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
+                                    
+<div class="statis">
+    <span class="count"><a href="/" target="_blank">23</a></span>
+    <span class="name">文章</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/categories" target="_blank">15</a></span>
+    <span class="name">分类</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/tags" target="_blank">46</a></span>
+    <span class="name">标签</span>
+</div>
+
+                                </div>
+                                <div class="title">洪卫</div>
+                                <div class="career">电子科技大学 | 电子与通信工程 | 计算机视觉</div>
+                                <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
+                                    
+    <a href="https://github.com/shw2018" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+ 
+    <a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=948840751@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+
+    <a href="https://zhihu.com/people/hongwei-60-34" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
+        <i class="fa fa-inverse">知</i>
+    </a>
+
+
+
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=948840751&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="访问我的QQ空间" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/3010027571" class="tooltipped" target="_blank" data-tooltip="关注我的微博" data-position="top" data-delay="50">
+        <i class="fa fa-weibo"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l4 hide-on-med-and-down" data-aos="zoom-in-left">
+                        <div class="social-link">
+                            
+    <a href="https://github.com/shw2018" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+ 
+    <a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=948840751@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+
+    <a href="https://zhihu.com/people/hongwei-60-34" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
+        <i class="fa fa-inverse">知</i>
+    </a>
+
+
+
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=948840751&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="访问我的QQ空间" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/3010027571" class="tooltipped" target="_blank" data-tooltip="关注我的微博" data-position="top" data-delay="50">
+        <i class="fa fa-weibo"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="introduction center-align" data-aos="fade-up">
+                    我是电子科技大学信息与通信工程学院2018级硕士研究生。研究方向是计算机视觉，深度学习。我们实验室是智能视觉信息处理与通信实验室(IVIPC)，欢迎大家报考！
+                </div>
+
+                <style type="text/css">
+    #posts-chart,
+    #categories-chart,
+    #tags-chart {
+        width: 100%;
+        height: 300px;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+</style>
+
+<div id="postCharts" class="post-charts">
+    <div class="title center-align" data-aos="zoom-in-up">
+        <i class="fa fa-bar-chart"></i>&nbsp;&nbsp;文章统计图
+    </div>
+    <div class="row">
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="posts-chart"></div>
+        </div>
+
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="categories-chart"></div>
+        </div>
+
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="tags-chart"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
+<script>
+    let postsChart = echarts.init(document.getElementById('posts-chart'));
+    let categoriesChart = echarts.init(document.getElementById('categories-chart'));
+    let tagsChart = echarts.init(document.getElementById('tags-chart'));
+
+    
+
+    let postsOption = {
+        title: {
+            text: '文章发布统计图',
+            top: -5,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        xAxis: {
+            type: 'category',
+            data: ["2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09"]
+        },
+        yAxis: {
+            type: 'value',
+        },
+        series: [
+            {
+                name: '文章篇数',
+                type: 'line',
+                color: ['#6772e5'],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,0],
+                markPoint: {
+                    symbolSize: 45,
+                    color: ['#fa755a','#3ecf8e','#82d3f4'],
+                    data: [{
+                        type: 'max',
+                        itemStyle: {color: ['#3ecf8e']},
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        itemStyle: {color: ['#fa755a']},
+                        name: '最小值'
+                    }]
+                },
+                markLine: {
+                    itemStyle: {color: ['#ab47bc']},
+                    data: [
+                        {type: 'average', name: '平均值'}
+                    ]
+                }
+            }
+        ]
+    };
+
+    
+
+    let categoriesOption = {
+        title: {
+            text: '文章分类统计图',
+            top: -4,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        series: [
+            {
+                name: '分类',
+                type: 'pie',
+                radius: '50%',
+                color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
+                data: [{"name":"网站优化","value":1},{"name":"软件安装与配置","value":2},{"name":"计算机视觉","value":2},{"name":"深度学习","value":1},{"name":"网站建设与优化","value":4},{"name":"提效工具","value":1},{"name":"写作技巧","value":1},{"name":"文章写作技巧","value":2},{"name":"网络知识","value":1},{"name":"Python教程","value":1},{"name":"软件推荐","value":3},{"name":"实用脚本","value":1},{"name":"微言微语","value":1},{"name":"软件使用技巧","value":1},{"name":"加密研究","value":1}],
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+
+    
+
+    let tagsOption = {
+        title: {
+            text: 'TOP10 标签统计图',
+            top: -5,
+            x: 'center'
+        },
+        tooltip: {},
+        xAxis: [
+            {
+                type: 'category',
+                data: ["Github","博客","Hexo","深度学习","Tutorial","常用软件","计算机视觉","Markdown","Windows","Linux"]
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value'
+            }
+        ],
+        series: [
+            {
+                type: 'bar',
+                color: ['#82d3f4'],
+                barWidth : 18,
+                data: [4,3,3,3,3,3,2,2,2,2],
+                markPoint: {
+                    symbolSize: 45,
+                    data: [{
+                        type: 'max',
+                        itemStyle: {color: ['#3ecf8e']},
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        itemStyle: {color: ['#fa755a']},
+                        name: '最小值'
+                    }],
+                },
+                markLine: {
+                    itemStyle: {color: ['#ab47bc']},
+                    data: [
+                        {type: 'average', name: '平均值'}
+                    ]
+                }
+            }
+        ]
+    };
+
+    // render the charts
+    postsChart.setOption(postsOption);
+    categoriesChart.setOption(categoriesOption);
+    tagsChart.setOption(tagsOption);
+</script>
+
+                
+
+                
+                
+<div class="my-skills">
+    <div class="title center-align" data-aos="zoom-in-up">
+        <i class="fa fa-wrench"></i>&nbsp;&nbsp;我的技能
+    </div>
+    <div class="row">
+        
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 80%">
+                    <span>算法</span>
+                </div>
+                <div class="skill-bar-percent">80%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 70%">
+                    <span>C++</span>
+                </div>
+                <div class="skill-bar-percent">70%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 95%">
+                    <span>Python</span>
+                </div>
+                <div class="skill-bar-percent">95%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 40%">
+                    <span>Java</span>
+                </div>
+                <div class="skill-bar-percent">40%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 70%">
+                    <span>HTML</span>
+                </div>
+                <div class="skill-bar-percent">70%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 70%">
+                    <span>CSS</span>
+                </div>
+                <div class="skill-bar-percent">70%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 75%">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-bar-percent">75%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 70%">
+                    <span>NodeJS</span>
+                </div>
+                <div class="skill-bar-percent">70%</div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    
+
+  
+    <div class="other-skills chip-container" data-aos="zoom-in-up">
+        <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
+        <div class="tag-chips center-align">
+            
+            
+            <a href="/tags/博客/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">博客</span>
+            </a>
+            
+            
+            
+            <a href="/tags/二级目录/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">二级目录</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Hexo/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Hexo</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Github/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Github</span>
+            </a>
+            
+            
+            
+            <a href="/tags/计算机视觉/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">计算机视觉</span>
+            </a>
+            
+            
+            
+            <a href="/tags/深度学习/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">深度学习</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Deep-Learning/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Deep Learning</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Conda/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Conda</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Imagine/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Imagine</span>
+            </a>
+            
+            
+            
+            <a href="/tags/网站优化/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">网站优化</span>
+            </a>
+            
+            
+            
+            <a href="/tags/图片压缩/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">图片压缩</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Effective/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Effective</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Tools/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Tools</span>
+            </a>
+            
+            
+            
+            <a href="/tags/提效工具/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">提效工具</span>
+            </a>
+            
+            
+            
+            <a href="/tags/instant-page/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">instant.page</span>
+            </a>
+            
+            
+            
+            <a href="/tags/网站预加载脚本/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">网站预加载脚本</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Jsdelivr/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Jsdelivr</span>
+            </a>
+            
+            
+            
+            <a href="/tags/cdn/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">cdn</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Markdown/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Markdown</span>
+            </a>
+            
+            
+            
+            <a href="/tags/PicGo/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">PicGo</span>
+            </a>
+            
+            
+            
+            <a href="/tags/图床/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">图床</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Tutorial/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Tutorial</span>
+            </a>
+            
+            
+            
+            <a href="/tags/服务端口/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">服务端口</span>
+            </a>
+            
+            
+            
+            <a href="/tags/服务器/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">服务器</span>
+            </a>
+            
+            
+            
+            
+            
+            <a href="/tags/GUI/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">GUI</span>
+            </a>
+            
+            
+            
+            <a href="/tags/TKinter/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">TKinter</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Ubuntu/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Ubuntu</span>
+            </a>
+            
+            
+            
+            <a href="/tags/QQ/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">QQ</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Wechat/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Wechat</span>
+            </a>
+            
+            
+            
+            <a href="/tags/脚本/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">脚本</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Script/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Script</span>
+            </a>
+            
+            
+            
+            <a href="/tags/微言/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">微言</span>
+            </a>
+            
+            
+            
+            <a href="/tags/whisper/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">whisper</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Emoji/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Emoji</span>
+            </a>
+            
+            
+            
+            <a href="/tags/表情包/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">表情包</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Software/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Software</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Commands/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Commands</span>
+            </a>
+            
+            
+            
+            <a href="/tags/常用命令/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">常用命令</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Bugs/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Bugs</span>
+            </a>
+            
+            
+            
+            <a href="/tags/常用软件/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">常用软件</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Tips/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Tips</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Windows/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Windows</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Linux/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Linux</span>
+            </a>
+            
+            
+            
+            <a href="/tags/加密/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">加密</span>
+            </a>
+            
+            
+            
+            <a href="/tags/AES/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">AES</span>
+            </a>
+            
+            
+        </div>
+    </div>
+     
+
+</div>
+                
+                
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="card-content article-card-content">
+                        <div class="title center-align" data-aos="zoom-in-up">
+                            <i class="fa fa-address-book"></i>&nbsp;&nbsp;我的简历
+                        </div>
+                        <div id="articleContent" data-aos="fade-up">
+                            <p align="center"></p><h1 align="center">孙洪卫</h1><p></p>
+
+<h1 id="个人概况"><a href="#个人概况" class="headerlink" title="个人概况"></a>个人概况</h1>
+<table>
+  <tbody><tr>
+    <td>学  校：</td>    <td>电子科技大学</td>    <td>院  系：</td>    <td>信息与通信工程学院信息工程系</td>
+    <td rowspan="5"><img width="120" src="https://raw.githubusercontent.com/shw2018/cdn/master/matery/img/avatars/hwsun.jpg"></td>
+  </tr>
+  <tr>
+    <td>专  业：</td>    <td>电子与通信工程</td>    <td>电  话：</td>    <td>199****9189</td>
+  </tr>
+    <tr>
+    <td>学  历：</td>    <td>研究生在读</td>    <td>现 居 地：</td>    <td>成都高新西区</td>
+  </tr>
+  <tr>
+    <td>QQ/微信：</td>    <td>948840751/sunhwee</td>    <td>E-mail：</td>    <td><a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=hwsun@sunhwee.com" target="_blank" rel="noopener">hwsun@sunhwee.com</a></td>
+  </tr>
+  <tr>
+    <td>Github：</td>    <td> <a href="https://github.com/shw2018" target="_blank" rel="noopener">https://github.com/shw2018</a></td>    <td>个人网站：</td>    <td>  <a href="https://sunhwee.com">https://sunhwee.com</a></td>
+  </tr>
+</tbody></table>
+
+
+<h1 id="当前所在"><a href="#当前所在" class="headerlink" title="当前所在"></a>当前所在</h1><p>在电子科技大学|信息与通信工程学院|信息工程系|电子与通信工程|计算机视觉、深度学习等研究方向|智能视觉信息处理与通信实验室(<a href="http://ivipc.uestc.edu.cn/" target="_blank" rel="noopener">IVIPC</a>)2018级研究生。<br>地址： 成都市高新区（西区）西源大道2006号清水河校区科研大楼，邮编611731 。 </p>
+<h1 id="专利-论文"><a href="#专利-论文" class="headerlink" title="专利/论文"></a>专利/论文</h1><blockquote>
+<p><b>读研搬砖阶段:</b></p>
+</blockquote>
+<ul>
+<li><b> 正在做实验中…</b></li>
+</ul>
+<blockquote>
+<p><b>本科划水阶段:</b></p>
+</blockquote>
+<ul>
+<li><b> 核心期刊论文一篇</b></li>
+<li><b>国家发明专利一项</b></li>
+</ul>
+<h1 id="科研-项目-比赛"><a href="#科研-项目-比赛" class="headerlink" title="科研/项目/比赛"></a>科研/项目/比赛</h1><p><b>2013-至今       本科先后在学校<strong>电子设计穿新实践班</strong>、<strong>射频与微波技术实验室</strong>、<strong>先进控制与算法研究生实验室</strong>自主学习，做项目和参加比赛等，研究生在UESTC IVIPC实验室进行计算机视觉、深度学习、图像处理等方面的学习。</b></p>
+<blockquote>
+<p><b>研一试水阶段:</b></p>
+</blockquote>
+<ul>
+<li><p>2019——DCIC 2019-数字中国创新大赛中国心电智能大赛——所属领域：数据挖掘 机器学习——题目：消费者人群画像——信用智能评分——Rank：<strong>1%</strong>（22/2522）</p>
+</li>
+<li><p>2019——中国心电智能大赛——所属领域：信号处理、机器学习——成功进入复赛 ——后面没时间做了</p>
+</li>
+<li><p>2018——AI Challenge 全球 AI 挑战赛——所属领域：图像处理  深度学习——题目：农作物病虫害检测——Rank：<strong>2%</strong>（15/515）</p>
+</li>
+</ul>
+<blockquote>
+<p><b>本科划水阶段：</b></p>
+</blockquote>
+<ul>
+<li>2015——全国电子设计大赛——负责角色：队长——所属领域：信号分析处理、嵌入式编程，语言：C语言——题目：频谱分析仪——Rank：校一等奖（送审现场电源被烧，悲剧，辜负了院长的厚望，：）！～）</li>
+</ul>
+<ul>
+<li><p>2015——校电子设计与测试竞赛 ——负责角色：队长——所属领域：信号处理、无线电通信、嵌入式编程，语言：C语言——题目：无线电遥控系统设计与制作——Rank：一等奖</p>
+</li>
+<li><p>2014——四川省TI杯大学生电子设计大赛——负责角色：队长——所属领域：语音信号处理、无线通信、嵌入式编程，语言：C语言——题目：音频功率放大器及啸叫抑制设计——Rank：四川省二等奖</p>
+</li>
+<li><p>2014——四川省TI杯大学生电子设计大赛——负责角色：队长——所属领域：语音信号处理、无线通信、嵌入式编程，语言：C语言——题目：音频功率放大器及啸叫抑制设计——Rank：四川省二等奖</p>
+</li>
+<li><p>2014——四川省科技厅苗子工程—— 负责角色：第二负责——所属领域：介质波导，功率放大器、通信—— 题目：基于非均匀介质的圆波导TE11-HE11 模式变换器  </p>
+</li>
+</ul>
+<h1 id="主要获奖"><a href="#主要获奖" class="headerlink" title="主要获奖"></a>主要获奖</h1><blockquote>
+<p> <b>研究生阶段</b></p>
+</blockquote>
+<ul>
+<li>待续…</li>
+<li>2019——校优秀学生干部</li>
+<li>2018——研究生入学新生三等奖学金</li>
+</ul>
+<blockquote>
+<p> <b>本科阶段</b></p>
+</blockquote>
+<p><b>科研竞赛类获奖：</b></p>
+<ul>
+<li>2015——全国大学生电子设计大赛校一等奖 </li>
+<li>2015——校电子设计与测试竞赛一等奖 </li>
+<li>2015——信息学院科技创新奖</li>
+<li>2014——四川省TI杯电子设计大赛二等奖 </li>
+<li>2014——校年度学生科技活动先进个人</li>
+<li>2014——信息学院科技活动标兵</li>
+</ul>
+<p><b>学习实践类获奖：</b></p>
+<ul>
+<li>2015——校优秀学生干部一类奖学金</li>
+<li>2015——信息学院学习成绩优秀奖</li>
+<li>2015——信息学院三好学生</li>
+<li>2014——校优秀学生干部一类奖学金</li>
+<li>2014——校道德风尚奖</li>
+<li>2014——校社会实践先进个人</li>
+<li>2013——校优秀学生干部一类奖学金</li>
+<li>2013——校党校学习优秀学员</li>
+<li>2013——院辩论赛最佳辩手</li>
+</ul>
+<p><b>学生工作类获奖：</b></p>
+<ul>
+<li>2015——校优秀学生干部</li>
+<li>2014——校优秀学生干部</li>
+<li>2014——校优秀班长</li>
+<li>2013——校优秀学生干部</li>
+</ul>
+<h1 id="工作实践"><a href="#工作实践" class="headerlink" title="工作实践"></a>工作实践</h1><p>在校期间担任过班长、辅导员助理、党支部副书记、新生导生、校园电视台干事等。担任学生干部期间，带领班集体一起取得“市级先进班集体”、“校级先进班集体”2次、“院文明班集体”、“社会活动先进集体”等集体荣誉称号。</p>
+<h1 id="待续…"><a href="#待续…" class="headerlink" title="待续…"></a>待续…</h1><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+        <footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&copy; 2019 Hongwei. <span class="with-love" id="heart"><i class="fa fa-heart" style="color:#ff71a8"></i> </span> 渝ICP备19012360号
+
+            <br>
+            <span id="sitetime"></span><span class="my-face">ღゝ◡╹)ノ♡</span>
+            <br>
+
+            
+
+            
+                    
+                        <span id="busuanzi_container_site_pv" style='display:none'></span>
+                        总访问量: <span id="busuanzi_value_site_pv" class="white-color"></span>
+                    
+        
+                    
+                        <span id="busuanzi_container_site_uv" style='display:none'></span>
+                        人次&nbsp; | &nbsp;访客人数: <span id="busuanzi_value_site_uv" class="white-color"></span> 人
+                    
+    
+            
+
+            
+                &nbsp; | &nbsp;字数统计:&nbsp;
+                <span class="white-color">46.8k</span> 字
+            
+
+            
+            <br>
+
+            <!-- 友盟站点统计 洪卫 shw2018 add 2019.09.12  -->
+            <script type="text/javascript">
+                var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1278019489'%3E%3C/span%3E%3Cscript src='" +
+                    cnzz_protocol +
+                    "s9.cnzz.com/z_stat.php%3Fid%3D1278019489%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"
+                    ));
+            </script>
+
+        </div>
+
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/shw2018" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+ 
+    <a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=948840751@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+
+    <a href="https://zhihu.com/people/hongwei-60-34" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
+        <i class="fa fa-inverse">知</i>
+    </a>
+
+
+
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=948840751&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="访问我的QQ空间" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/3010027571" class="tooltipped" target="_blank" data-tooltip="关注我的微博" data-position="top" data-delay="50">
+        <i class="fa fa-weibo"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+<!-- 不蒜子计数初始值纠正 -->
+<script>
+    $(document).ready(function () {
+
+        var int = setInterval(fixCount, 50);
+        var pvcountOffset = 10000;
+        var uvcountOffset = 4000;
+
+        function fixCount() {
+            if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
+                $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) +
+                    pvcountOffset);
+                clearInterval(int);
+            }
+            if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) +
+                    uvcountOffset); // 加上初始数据 
+                clearInterval(int);
+            }
+        }
+    });
+</script>
+
+<script language=javascript>
+    function siteTime() {
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth() + 1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+        year - 作为date对象的年份，为4位年份值
+        month - 0-11之间的整数，做为date对象的月份
+        day - 1-31之间的整数，做为date对象的天数
+        hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+        minutes - 0-59之间的整数，做为date对象的分钟数
+        seconds - 0-59之间的整数，做为date对象的秒数
+        microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+
+        var t1 = Date.UTC(2019, 08, 10, 00, 00, 00); //北京时间2019-8-1 00:00:00
+        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+        var diff = t2 - t1;
+        var diffYears = Math.floor(diff / years);
+        var diffDays = Math.floor((diff / days) - diffYears * 365);
+        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
+            minutes) / seconds);
+        document.getElementById("sitetime").innerHTML = "本站已勉强运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours +
+            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒" ;
+    } /*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+    siteTime();
+</script>
+
+<!-- 鼠标点击烟花爆炸效果  洪卫 shw2018 add 2019.09.09 -->
+
+    <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
+    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+    <script type="text/javascript" src="/js/fireworks.js"></script>
+
+
+<!-- 在线聊天工具  洪卫 shw2018 add 2019.09.11 -->
+<!-- <script src="//code.tidio.co/rwjwdlfhkt9pp7zjsjcva0ug96bvfhss.js"></script> -->
+
+<!-- 代码高亮  洪卫 shw2018 add 2019.09.11 -->
+<!-- <script src="/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script> -->
+
+
+
+        <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+<!-- 洪卫 shw2018 modify 2019.08.30 -->
+<script src="/js/search.js"></script>
+<!-- <script src="/js/search.js"></script> -->
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+        <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+        <script src="/libs/materialize/materialize.min.js"></script>
+        <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+        <script src="/libs/aos/aos.js"></script>
+        <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+        <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+        <script src="/js/matery.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146860938-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-146860938-1');
+</script>
+
+
+
+        
+            <script src="/libs/others/clicklove.js"></script>
+        
+
+        
+            <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+        
+
+        <!-- 洪卫 shw2018 add 2019.08.28 -->
+        <script type="text/javascript">
+            var OriginTitile = document.title,
+                st;
+            document.addEventListener("visibilitychange", function () {
+                document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
+                    "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () {
+                        document.title = OriginTitile
+                    }, 3e3))
+            })
+        </script>
+
+        <!-- 天气接口控件  洪卫 shw2018 add 2019.09.09 -->
+        
+            <!-- 天气接口插件  洪卫 shw2018 add 2019.09.09 -->
+<style type="text/css">
+  #weather-float-he {
+    position: absolute;
+    z-index: 9999;
+    padding: 0px;
+    top: 8px;
+    left: 8px;
+  }
+</style>
+
+<script type="text/javascript">
+  WIDGET = {
+    FID: '1tFpFZ5Mtj'
+  }
+</script>
+<!-- <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> -->
+
+<script type="text/javascript">
+  //只在桌面版网页启用特效
+  var windowWidth = $(window).width();
+  if (windowWidth > 768) {
+    document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
+  }
+</script>
+        
+
+        <!-- 鼠标点击烟花爆炸效果  洪卫 shw2018 add 2019.09.09 -->
+        
+            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
+            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+            <script type="text/javascript" src="/js/fireworks.js"></script>
+        
+
+        <!-- 背景雪花飘落特效洪卫 shw2018 add 2019.09.10 -->
+        
+            <script type="text/javascript">
+            //只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+            }
+            </script>
+        
+
+        <!-- 鼠标点击文字特效 洪卫 shw2018 add 2019.09.10-->
+        
+            <script src="/js/wenzi.js" type="text/javascript"></script>
+        
+
+        <!-- 背景雪花飘落特效 洪卫 shw2018 add 2019.09.10 -->
+        
+
+        <!-- 在线聊天工具  洪卫 shw2018 add 2019.09.11 -->
+        
+            <script src="//code.tidio.co/rwjwdlfhkt9pp7zjsjcva0ug96bvfhss.js"></script>
+            <!--  在线聊天位置自定义  洪卫 shw2018 add 2019.09.13  -->
+            <script> 
+                $(document).ready(function () {
+
+                    setInterval(change_Tidio, 50);  
+                    function change_Tidio() { 
+
+                        var tidio=$("#tidio-chat iframe");
+                        if(tidio.css("display")=="block"&& $(window).width()>977 ){
+                            document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" &&$(window).width()>977)>0? "-40px" : ($("div.toc-title").length&&$(window).width()>977)>0?"80px":"20px";   
+                            document.getElementById("tidio-chat-iframe").style.right="-15px";   
+                            document.getElementById("tidio-chat-iframe").style.height=parseInt(tidio.css("height"))>=520?"520px":tidio.css("height");
+                            document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                        } 
+                        else if(tidio.css("display")=="block"&&$(window).width()>601 &&$(window).width()<992 ){
+                            document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && 601< $(window).width()<992)>0? "-40px":"20px" ;   
+                            document.getElementById("tidio-chat-iframe").style.right="-15px"; 
+                            document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                        }
+                        else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
+                            document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;   
+                            document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                        }
+
+                        if( tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))>=230){
+                            document.getElementById("tidio-chat-iframe").style.zIndex="998";
+                        }
+                    } 
+                }); 
+            </script>
+        
+
+        <!--  html 预加载脚本  洪卫 shw2018 add 2019.09.12  -->
+        <script src="/js/instant.page.js" type="module"></script>
+
+        <!-- 背景 canvas-nest  洪卫 shw 2018  add 2019.09.15-->
+        
+
+        <!-- 背景静止彩带  洪卫 shw 2018  add 2019.09.15-->
+        
+
+        <!-- 背景动态彩带 洪卫 shw 2018  add 2019.09.15-->
+        
+            <script type="text/javascript">
+            var windowWidth = $(window).width();
+            if (windowWidth > 992) {
+                document.write('<script type="text/javascript" src="/libs/background/ribbon-dynamic.js"><\/script>');
+            }
+            </script>
+        
+
+        <!-- <script src='https://cdn.jsdelivr.net/gh/fcmam5/nightly.js@v1.0/dist/nightly.min.js'></script> -->
+
+    </body>
+</html>
